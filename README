@@ -1,0 +1,1 @@
+This repository houses NuGet packages for the Galactic API. These are built using NuGet Package Explorer and utilize the DLLs in the Shared Libraries repository.
