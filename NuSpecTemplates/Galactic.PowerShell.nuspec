@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Galactic.PowerShell</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A class library for leveraging PowerShell from within an application. Supports synchronous and asynchronous commands with built-in runspace management.</description>
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic scripting powershell</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Galactic.EventLog" version="[VERSION]" />
+                <dependency id="System.Management.Automation" version="6.1.7601.17515" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.PowerShell.dll" target="lib\Galactic.PowerShell.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.PowerShell.xml" target="lib\Galactic.PowerShell.xml" />
+    </files>
+</package>

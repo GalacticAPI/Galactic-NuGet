@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Galactic.Calendar</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Base class library for manipulating calendars of all types.</description>
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic calendar</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Calendar.dll" target="lib\Galactic.Calendar.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Calendar.xml" target="lib\Galactic.Calendar.xml" />
+    </files>
+</package>

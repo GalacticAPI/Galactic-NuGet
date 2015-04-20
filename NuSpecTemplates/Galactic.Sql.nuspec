@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Galactic.Sql</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A base class library for querying and manipulating SQL databases.</description>
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic sql database</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Galactic.EventLog" version="[VERSION]" />
+                <dependency id="Galactic.FileSystem" version="[VERSION]" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Data" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Sql.dll" target="lib\Galactic.Sql.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Sql.xml" target="lib\Galactic.Sql.xml" />
+    </files>
+</package>

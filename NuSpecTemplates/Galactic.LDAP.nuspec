@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>Galactic.LDAP</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A fast and robust class library that allows you to easily query and manipulate users, groups, and objects in LDAP directories.</description>
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic ldap</tags>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.DirectoryServices.Protocols" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Xml" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.LDAP.dll" target="lib\Galactic.LDAP.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.LDAP.xml" target="lib\Galactic.LDAP.xml" />
+    </files>
+</package>

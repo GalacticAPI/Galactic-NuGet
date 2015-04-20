@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Galactic.NoSql.MongoDB</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A class library for querying and manipulating MongoDB document databases.</description>
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic nosql mongodb</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Galactic.EventLog" version="[VERSION]" />
+                <dependency id="Galactic.NoSql" version="[VERSION]" />
+                <dependency id="Galactic.Configuration" version="[VERSION]" />
+                <dependency id="mongocsharpdriver" version="[1.10.0]" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.NoSql.MongoDB.dll" target="lib\Galactic.NoSql.MongoDB.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.NoSql.MongoDB.xml" target="lib\Galactic.NoSql.MongoDB.xml" />
+    </files>
+</package>
