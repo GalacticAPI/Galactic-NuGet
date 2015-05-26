@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <system.web>
+		<roleManager defaultProvider="SimpleMappingRoleProvider" enabled="true" cookieRequireSSL="true" xdt:Transform="Insert">
+			<providers>
+				<clear/>
+				<add name="SimpleMappingRoleProvider" type="Galactic.Web.Security.SimpleMapping.SimpleMappingRoleProvider" applicationConfigurationItemDirectory="~/ConfigurationItems/" description="Galactic Simple Mapping Role Provider"/>
+			</providers>
+		</roleManager>
+    </system.web>
+</configuration>

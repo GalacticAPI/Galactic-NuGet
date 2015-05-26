@@ -4,7 +4,7 @@
 		<roleManager defaultProvider="ActiveDirectoryRoleProvider" enabled="true" cookieRequireSSL="true" xdt:Transform="Insert">
 			<providers>
 				<clear/>
-				<add name="ActiveDirectoryRoleProvider" type="Galactic.Web.Security.ActiveDirectoryRoleProvider" applicationConfigurationItemDirectory="~/ConfigurationItems/" description="Galactic Active Directory Role Provider"/>
+				<add name="ActiveDirectoryRoleProvider" type="Galactic.Web.Security.ActiveDirectory.ActiveDirectoryRoleProvider" applicationConfigurationItemDirectory="~/ConfigurationItems/" description="Galactic Active Directory Role Provider"/>
 			</providers>
 		</roleManager>
     </system.web>

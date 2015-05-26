@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>Galactic.Web.Security.SimpleMapping</id>
+        <version>[VERSION]</version>
+        <authors>Galactic API Team</authors>
+        <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
+        <projectUrl>http://galacticapi.github.io/</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A System.Web.Security.RoleProvider that uses an encrypted file containing lists of users mapped to roles as its data store.
+
+See: http://galacticapi.github.io/astrolabe.html#SimpleMappingRoleProvider for RoleProvider configuration details.</description>
+        <summary>A System.Web.Security.RoleProvider that uses an encrypted file containing lists of users mapped to roles as its data store.</summary>
+        <releaseNotes />
+        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <tags>Galactic RoleProvider encrypted file web membership</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.5">
+                <dependency id="Galactic.EventLog" version="[VERSION]" />
+                <dependency id="Galactic.Configuration" version="[VERSION]" />
+            </group>
+        </dependencies>
+        <frameworkAssemblies>
+            <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.Web.ApplicationServices" targetFramework=".NETFramework4.5" />
+        </frameworkAssemblies>
+    </metadata>
+    <files>
+        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\SimpleMappingRoleProvider.config" target="content\ConfigurationItems\SimpleMappingRoleProvider.config" />
+        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\web.config.install.xdt" target="content\web.config.install.xdt" />
+        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleMapping.dll" target="lib\Galactic.Web.Security.SimpleMapping.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleMapping.xml" target="lib\Galactic.Web.Security.SimpleMapping.xml" />
+    </files>
+</package>

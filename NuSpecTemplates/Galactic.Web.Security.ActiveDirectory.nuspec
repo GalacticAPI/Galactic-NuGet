@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
-        <id>Galactic.Web.Security</id>
+        <id>Galactic.Web.Security.ActiveDirectory</id>
         <version>[VERSION]</version>
         <authors>Galactic API Team</authors>
         <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
@@ -32,10 +32,10 @@ See: http://galacticapi.github.io/astrolabe.html#ADRoleProvider for RoleProvider
         </frameworkAssemblies>
     </metadata>
     <files>
-        <file src="PackageSource\Galactic.Web.Security\ActiveDirectoryRoleProvider.config" target="content\ConfigurationItems\ActiveDirectoryRoleProvider.config" />
-        <file src="PackageSource\Galactic.Web.Security\web.config.install.xdt" target="content\web.config.install.xdt" />
-        <file src="PackageSource\Galactic.Web.Security\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
-        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.dll" target="lib\Galactic.Web.Security.dll" />
-        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.xml" target="lib\Galactic.Web.Security.xml" />
+        <file src="PackageSource\Galactic.Web.Security.ActiveDirectory\ActiveDirectoryRoleProvider.config" target="content\ConfigurationItems\ActiveDirectoryRoleProvider.config" />
+        <file src="PackageSource\Galactic.Web.Security.ActiveDirectory\web.config.install.xdt" target="content\web.config.install.xdt" />
+        <file src="PackageSource\Galactic.Web.Security.ActiveDirectory\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.ActiveDirectory.dll" target="lib\Galactic.Web.Security.ActiveDirectory.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.ActiveDirectory.xml" target="lib\Galactic.Web.Security.ActiveDirectory.xml" />
     </files>
 </package>
