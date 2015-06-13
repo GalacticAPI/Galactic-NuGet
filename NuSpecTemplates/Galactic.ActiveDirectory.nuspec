@@ -8,7 +8,7 @@
         <projectUrl>http://galacticapi.github.io/</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A fast and robust class library that allows you to easily query and manipulate users, groups, and objects in Active Directory.</description>
+        <description>A fast and robust class library that allows you to easily query and manipulate users, groups, and objects in Active Directory. Note: Not currently supported in Mono.</description>
         <copyright>Copyright © 2015 Galactic API Team</copyright>
         <tags>Galactic active directory ad</tags>
         <dependencies>
