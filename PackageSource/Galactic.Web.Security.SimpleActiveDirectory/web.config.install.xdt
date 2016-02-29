@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+    <system.web>
+		<roleManager defaultProvider="SimpleActiveDirectoryRoleProvider" enabled="true" cookieRequireSSL="true" xdt:Transform="Insert">
+			<providers>
+				<clear/>
+				<add name="SimpleActiveDirectoryRoleProvider" type="Galactic.Web.Security.ActiveDirectory.SimpleActiveDirectoryRoleProvider" applicationConfigurationItemDirectory="~/ConfigurationItems/" description="Galactic Simple Active Directory Role Provider"/>
+			</providers>
+		</roleManager>
+    </system.web>
+</configuration>

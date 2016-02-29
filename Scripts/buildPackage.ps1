@@ -1,4 +1,4 @@
-# Copyright 2015, Galactic API Team.
+# Copyright 2016, Galactic API Team.
 # Licensed under the MIT License.
 # Visit https://github.com/GalacticAPI/Galactic-NuGet for details.
 #

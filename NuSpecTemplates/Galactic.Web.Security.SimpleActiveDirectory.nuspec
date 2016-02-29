@@ -1,23 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
-        <id>Galactic.Web.Security.SimpleMapping</id>
+        <id>Galactic.Web.Security.SimpleActiveDirectory</id>
         <version>[VERSION]</version>
         <authors>Galactic API Team</authors>
         <licenseUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic/master/LICENSE</licenseUrl>
         <projectUrl>http://galacticapi.github.io/</projectUrl>
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>A System.Web.Security.RoleProvider that uses an encrypted file containing lists of users mapped to roles as its data store.
+        <description>A System.Web.Security.RoleProvider that maps to existing Active Directory groups.
 
-See: http://galacticapi.github.io/astrolabe.html#SimpleMappingRoleProvider for RoleProvider configuration details.</description>
-        <summary>A System.Web.Security.RoleProvider that uses an encrypted file containing lists of users mapped to roles as its data store.</summary>
+See: http://galacticapi.github.io/astrolabe.html#SimpleADRoleProvider for RoleProvider configuration details.</description>
+        <summary>A System.Web.Security.RoleProvider that maps to existing Active Directory groups.</summary>
         <releaseNotes />
         <copyright>Copyright © 2016 Galactic API Team</copyright>
-        <tags>Galactic RoleProvider encrypted file web membership</tags>
+        <tags>Galactic RoleProvider active directory ad groups asp.net web membership</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">
                 <dependency id="Galactic.EventLog" version="[VERSION]" />
+                <dependency id="Galactic.ActiveDirectory" version="[VERSION]" />
                 <dependency id="Galactic.Configuration" version="[VERSION]" />
             </group>
         </dependencies>
@@ -25,15 +26,16 @@ See: http://galacticapi.github.io/astrolabe.html#SimpleMappingRoleProvider for R
             <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />
             <frameworkAssembly assemblyName="System.Core" targetFramework=".NETFramework4.5" />
             <frameworkAssembly assemblyName="System.Configuration" targetFramework=".NETFramework4.5" />
+            <frameworkAssembly assemblyName="System.DirectoryServices.Protocols" targetFramework=".NETFramework4.5" />
             <frameworkAssembly assemblyName="System.Web" targetFramework=".NETFramework4.5" />
             <frameworkAssembly assemblyName="System.Web.ApplicationServices" targetFramework=".NETFramework4.5" />
         </frameworkAssemblies>
     </metadata>
     <files>
-        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\SimpleMappingRoleProvider.config" target="content\ConfigurationItems\SimpleMappingRoleProvider.config" />
-        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\web.config.install.xdt" target="content\web.config.install.xdt" />
-        <file src="PackageSource\Galactic.Web.Security.SimpleMapping\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
-        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleMapping.dll" target="lib\Galactic.Web.Security.SimpleMapping.dll" />
-        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleMapping.xml" target="lib\Galactic.Web.Security.SimpleMapping.xml" />
+        <file src="PackageSource\Galactic.Web.Security.SimpleActiveDirectory\SimpleActiveDirectoryRoleProvider.config" target="content\ConfigurationItems\SimpleActiveDirectoryRoleProvider.config" />
+        <file src="PackageSource\Galactic.Web.Security.SimpleActiveDirectory\web.config.install.xdt" target="content\web.config.install.xdt" />
+        <file src="PackageSource\Galactic.Web.Security.SimpleActiveDirectory\web.config.uninstall.xdt" target="content\web.config.uninstall.xdt" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleActiveDirectory.dll" target="lib\Galactic.Web.Security.SimpleActiveDirectory.dll" />
+        <file src="..\SharedLibraries\Release\Galactic\Galactic.Web.Security.SimpleActiveDirectory.xml" target="lib\Galactic.Web.Security.SimpleActiveDirectory.xml" />
     </files>
 </package>

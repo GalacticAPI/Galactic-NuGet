@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Class library for manipulating iCalendar calendars.</description>
-        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <copyright>Copyright © 2016 Galactic API Team</copyright>
         <tags>Galactic calendar icalendar ical</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">

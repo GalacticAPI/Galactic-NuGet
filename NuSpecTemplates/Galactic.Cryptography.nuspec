@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A class library for common encryption tasks. Supports various hash and encryption algorithms.</description>
-        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <copyright>Copyright © 2016 Galactic API Team</copyright>
         <tags>Galactic cryptography hash aes256 sha256 salt rijndael</tags>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />

@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A class library for managing application configuration information, as an alternative to web or application .config files. Supports encryption and allows for configuration information to be changed or reloaded at runtime without an application restart.</description>
-        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <copyright>Copyright © 2016 Galactic API Team</copyright>
         <tags>Galactic configuration</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">

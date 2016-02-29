@@ -13,7 +13,7 @@
 See: http://galacticapi.github.io/astrolabe.html#ADRoleProvider for RoleProvider configuration details.</description>
         <summary>A System.Web.Security.RoleProvider that uses Active Directory groups as its data store.</summary>
         <releaseNotes />
-        <copyright>Copyright © 2015 Galactic API Team</copyright>
+        <copyright>Copyright © 2016 Galactic API Team</copyright>
         <tags>Galactic RoleProvider active directory ad groups asp.net web membership</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">
