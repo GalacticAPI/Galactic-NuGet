@@ -10,5 +10,5 @@ $packages = get-childitem ..\*.nupkg
 # Publish them to the NuGet Servers
 foreach ($package in $packages) {
 	# Publish the package.
-	nuget push "..\$($package)" -NonInteractive
+	nuget push "..\$($package)" -NonInteractive -Source "https://www.nuget.org/api/v2/package"
 }
