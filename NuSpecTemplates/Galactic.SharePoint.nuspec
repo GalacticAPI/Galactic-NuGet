@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A class library for easily managing lists, document libraries, list items, folders, and documents in SharePoint.</description>
-        <copyright>Copyright © 2016 Galactic API Team</copyright>
+        <copyright>Copyright © 2017 Galactic API Team</copyright>
         <tags>Galactic SharePoint</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">

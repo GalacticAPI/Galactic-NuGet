@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>A fast and robust class library that allows you to easily query and manipulate users, groups, and objects in LDAP directories. Note: Not currently supported in Mono.</description>
-        <copyright>Copyright © 2016 Galactic API Team</copyright>
+        <copyright>Copyright © 2017 Galactic API Team</copyright>
         <tags>Galactic ldap</tags>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />

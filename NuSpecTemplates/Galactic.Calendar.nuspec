@@ -9,7 +9,7 @@
         <iconUrl>https://raw.githubusercontent.com/GalacticAPI/Galactic-API-Art/master/GalacticAPIIcon32.png</iconUrl>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
         <description>Base class library for manipulating calendars of all types.</description>
-        <copyright>Copyright © 2016 Galactic API Team</copyright>
+        <copyright>Copyright © 2017 Galactic API Team</copyright>
         <tags>Galactic calendar</tags>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="System" targetFramework=".NETFramework4.5" />

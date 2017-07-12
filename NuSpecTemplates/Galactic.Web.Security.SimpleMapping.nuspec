@@ -13,7 +13,7 @@
 See: http://galacticapi.github.io/astrolabe.html#SimpleMappingRoleProvider for RoleProvider configuration details.</description>
         <summary>A System.Web.Security.RoleProvider that uses an encrypted file containing lists of users mapped to roles as its data store.</summary>
         <releaseNotes />
-        <copyright>Copyright © 2016 Galactic API Team</copyright>
+        <copyright>Copyright © 2017 Galactic API Team</copyright>
         <tags>Galactic RoleProvider encrypted file web membership</tags>
         <dependencies>
             <group targetFramework=".NETFramework4.5">
